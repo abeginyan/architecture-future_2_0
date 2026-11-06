@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# Cloud credentials
+key.json
